@@ -121,6 +121,8 @@ Goal: Get familiar with CSS/SCSS and styling
 
 Tasks: Nothing specific, play around with styling!
 
+Note: You can create SCSS files, and they will be automatically compiled to CSS files when you save, but you need to import the CSS file into your component.
+
 Some styling related resources:
 * [Learn Layout](http://learnlayout.com/)
 * [A Complete Guide To Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
@@ -154,7 +156,6 @@ git push --set-upstream origin <YOUR_BRANCH_NAME>
 Note: this only needs to be done the first time you push a new branch. You can use just `git push` afterwards.
 
 Follow the instructions on the [wiki](https://github.com/hack4impact-uiuc/wiki/wiki/Git-Reference-Guide#opening-a-pull-request-pr-on-github) to open the PR.
-
 
 ### Resources
 [MDN - A reintroduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)<br>
