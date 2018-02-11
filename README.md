@@ -37,6 +37,8 @@ npm -v
 
 Install the [React Devtools](https://github.com/facebook/react-devtools) to easily debug and see what's going on in your React app.
 
+If you're using Sublime Text as your editor, you might want to install the `Babel` plugin to get proper syntax highlighting for JSX syntax. 
+
 Open up your terminal and navigate to the directory you want this project in. Then clone this repository by running:
 ```
 git clone https://github.com/hack4impact-uiuc/frontend-exercise.git
