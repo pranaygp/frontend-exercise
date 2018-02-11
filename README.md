@@ -13,11 +13,11 @@ We understand that a lot of you are new to React and frontend development in gen
 
 A lot of what makes a good software developer is being resourceful and knowing where/how to find information you need. At the same time, the entire Hack4Impact community is available if you get stuck, have unanswered questions, or want to discuss anything!
 
-If you have any questions about javascript as a language and its features or syntax, ask/discuss in the `#javascript` Slack channel.
+Ask questions and discuss about javascript as a language and its features or syntax in the `#javascript` Slack channel.
 
-If you have any questions about React, styling, or other frontend related concerns, ask/discuss in the `#frontend` Slack channel.
+Ask questions and discuss about React, styling, or any other frontend related topics in the `#frontend` Slack channel.
 
-And of course, if you are already familiar with this or have figured it out, please also hop in these channels and help those who need it! :)
+And of course, if you are already familiar with this or have figured it out, please hop in these channels and help those who need it! :)
 
 ### Requirements
 * node version 8.x
@@ -88,7 +88,7 @@ Tasks:
 * Make _every other_ list item uppercase
 * Do this without using `for` or `while` loops
 * Very useful videos to watch: 
- * [Functional Programming Intro](https://www.youtube.com/watch?v=BMUiFMZr7vk&index=1&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84) - just the first two videos are enough, although you only have a lot more to learn by watching the rest of the playlist
+ * [Functional Programming Intro](https://www.youtube.com/watch?v=BMUiFMZr7vk&index=1&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84) - just the first two videos are enough, although there's a lot to learn from the rest of the playlist and his other videos! (highly recommend subscribing)
  * [Rendering lists in React](https://egghead.io/lessons/egghead-use-the-key-prop-when-rendering-a-list-with-react)
 
 ## Part 3
@@ -105,8 +105,8 @@ Goal: Get familiar with user input
 
 Tasks:
 * In `App.js`, make an input that sets an `initialCount` state
-* Pass the `initialCount` state into the `Counter` component, and use this value as the initial `count` in the `Counter`
-* Validate the user input to make sure it's valid
+* Validate the user input to make sure it's valid (is a number)
+* Pass the `initialCount` state as a prop into the `Counter` component, and use this value as the initial `count` in the `Counter`. Make sure to watch out for types when doing this, since user input is a `String` and we want to send in a `Number`.
 * Bonus: show UI feedback if user input is invalid (a simple message will do)
 
 ## Part 5
