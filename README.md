@@ -59,11 +59,15 @@ After that's done, run this to start development:
 npm start
 ```
 
-This will start running the app and automatically open it at [http://localhost:3000](http://localhost:3000). Anytime you change and save the code, it will automatically reload!
+This will start running the app and automatically open it at [http://localhost:3000](http://localhost:3000). Anytime you change and save the code, it will automatically reload! This will remain a running process in your terminal, so you will need to open a new tab or window to execute other commands.
 
 Before you make any changes to the code, make sure to create a new branch. Typically branches are named based on the feature or bugfix being addressed, but for this project, name your branch with your own name so your reviewer can easily follow:
 ```
 git checkout -b <YOUR_NAME> 
+```
+Branch names should be all lowercase and can't contain spaces. Instead of spaces, use hyphens. For example:
+```
+git checkout -b varun-munjeti
 ```
 
 ### Optional Setup
