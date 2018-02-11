@@ -86,7 +86,7 @@ Goal: Get familiar with rendering lists and javascript array functions
 Tasks: 
 * Send an `items` prop into the `Instructions` component which contains a list of strings
 * Display a bullet point list of all the `items`
-* "Clean" the `items` by removing empty strings and trimming the whitespace around strings
+* Remove all items that are less than 3 characters long
 * Make _every other_ list item uppercase
 * Do this without using `for` or `while` loops
 * Very useful videos to watch: 
