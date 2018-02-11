@@ -35,6 +35,8 @@ npm -v
 
 ### Setup
 
+Install the [React Devtools](https://github.com/facebook/react-devtools) to easily debug and see what's going on in your React app.
+
 Open up your terminal and navigate to the directory you want this project in. Then clone this repository by running:
 ```
 git clone https://github.com/hack4impact-uiuc/frontend-exercise.git
@@ -83,6 +85,7 @@ Tasks:
 * Send an `items` prop into the `Instructions` component which contains a list of strings
 * Display a bullet point list of all the `items`
 * "Clean" the `items` by removing empty strings and trimming the whitespace around strings
+* Make _every other_ list item uppercase
 * Do this without using `for` or `while` loops
 * Very useful videos to watch: 
  * [Functional Programming Intro](https://www.youtube.com/watch?v=BMUiFMZr7vk&index=1&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84) - just the first two videos are enough, although you only have a lot more to learn by watching the rest of the playlist
@@ -122,6 +125,36 @@ Some styling related resources:
 * [Learn Layout](http://learnlayout.com/)
 * [A Complete Guide To Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [BEM Pattern](https://css-tricks.com/bem-101/)
+
+### Submitting
+When you're done with all the steps, open a pull request (PR) and assign your tech lead to review it!
+
+Before you can submit a PR, you'll have to push your branch to a remote branch (the one that's on GitHub, not local). 
+
+Check to see that you're on your branch:
+```
+git branch
+```
+
+If you want to make sure all of your commits are in:
+```
+git log
+```
+Press `Q` to quit the `git log` screen.
+
+Push your commits to your remote branch:
+```
+git push
+```
+
+The first time you do this, you might get an error since your remote branch doesn't exist yet. Usually it will tell you the correct command to use:
+```
+git push --set-upstream origin <YOUR_BRANCH_NAME>
+```
+Note: this only needs to be done the first time you push a new branch. You can use just `git push` afterwards.
+
+Follow the instructions on the [wiki](https://github.com/hack4impact-uiuc/wiki/wiki/Git-Reference-Guide#opening-a-pull-request-pr-on-github) to open the PR.
+
 
 ### Resources
 [MDN - A reintroduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)<br>
