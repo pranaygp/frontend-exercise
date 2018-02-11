@@ -160,6 +160,9 @@ Follow the instructions on the [wiki](https://github.com/hack4impact-uiuc/wiki/w
 [MDN - A reintroduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)<br>
 [The Beginner's Guide to React](https://egghead.io/courses/the-beginner-s-guide-to-reactjs)<br>
 [React Docs](https://reactjs.org/docs/hello-world.html)
+[Airbnb's Javascript Style Guide](https://github.com/airbnb/javascript)
+[Airbnb's React Style Guide](https://github.com/airbnb/javascript/tree/master/react)
+[Airbnb's CSS Style Guide](https://github.com/airbnb/css)
 
 ```
 H A C K 4 I M P A C T
