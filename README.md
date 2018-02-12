@@ -124,6 +124,8 @@ Tasks:
 * Maintain that the functionality of being able to set the initial count of the counter works
 * Useful: [React Component Lifecycle](https://reactjs.org/docs/react-component.html), specifically [componentWillReceiveProps](https://reactjs.org/docs/react-component.html#componentwillreceiveprops). Tangentially relevant: [React Cheat Sheet](https://reactcheatsheet.com/)
 
+Note: You can consider the project complete enough to submit a PR after this part. Part 6 is mostly for you to get creative :)
+
 ## Part 6
 Goal: Get familiar with CSS/SCSS and styling
 
