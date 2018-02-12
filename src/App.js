@@ -16,15 +16,29 @@ class Counter extends Component {
       count: state.count + 1
     }))
   }
-  decClick = () => {
-    this.setState(state => ({
-      count: state.count - 1
-    }))
+  handleSubmit(event) {
+    this.setState({
+      count: Number(this.initialCount)
+    })
+  }
+  handleForm(event) {
+    this.initialCount = event.target.value
   }
   render() {
     return (
       <div>
-        <button onClick={this.decClick}>Decrease</button>
+        <label>
+          Set count state:
+          <input
+            type="text"
+            placeholder="Set count state"
+            onChange={this.handleForm.bind(this)}
+          />
+        </label>
+        <button type="button" onClick={this.handleSubmit.bind(this)}>
+          Submit this
+        </button>
+        <br />
         Count state: {this.state.count}
         <button onClick={this.incClick}>Increase</button>
       </div>
