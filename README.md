@@ -110,16 +110,17 @@ Tasks:
 Goal: Get familiar with user input
 
 Tasks:
-* In `App.js`, make an input that sets an `initialCount` state
+* In `App.js`, make an input and a submit button that sets an `initialCount` state
 * Validate the user input to make sure it's valid (is a number)
 * Pass the `initialCount` state as a prop into the `Counter` component, and use this value as the initial `count` in the `Counter`. Make sure to watch out for types when doing this, since user input is a `String` and we want to send in a `Number`.
 * Bonus: show UI feedback if user input is invalid (a simple message will do)
+* Note: If your button refreshes the page, throw in a button type: `<button type="button" ...`
 
 ## Part 5
 Goal: Understand state/props communication between sibling components
 
 Tasks:
-* Move the `input` into its own component which is a child of the `App` component
+* Move the `input` and submit button into its own component called `InitialCountForm` that is a child of the `App` component
 * Maintain that the functionality of being able to set the initial count of the counter works
 
 ## Part 6
