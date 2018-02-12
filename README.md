@@ -122,6 +122,7 @@ Goal: Understand state/props communication between sibling components
 Tasks:
 * Move the `input` and submit button into its own component called `InitialCountForm` that is a child of the `App` component
 * Maintain that the functionality of being able to set the initial count of the counter works
+* Useful: [React Component Lifecycle](https://reactjs.org/docs/react-component.html), specifically [componentWillReceiveProps](https://reactjs.org/docs/react-component.html#componentwillreceiveprops). Tangentially relevant: [React Cheat Sheet](https://reactcheatsheet.com/)
 
 ## Part 6
 Goal: Get familiar with CSS/SCSS and styling
