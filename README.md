@@ -166,6 +166,8 @@ Note: this only needs to be done the first time you push a new branch. You can u
 
 Follow the instructions on the [wiki](https://github.com/hack4impact-uiuc/wiki/wiki/Git-Reference-Guide#opening-a-pull-request-pr-on-github) to open the PR.
 
+Note: make sure that you don't actually merge your PR in! We are only using it as a mechanism for providing code reviews.
+
 ### Resources
 [MDN - A reintroduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)<br>
 [The Beginner's Guide to React](https://egghead.io/courses/the-beginner-s-guide-to-reactjs)<br>
