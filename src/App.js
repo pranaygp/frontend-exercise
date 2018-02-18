@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Instructions } from './components'
+import Instructions from './components/Instructions.component'
 import './styles/app.css'
 
 class App extends Component {
